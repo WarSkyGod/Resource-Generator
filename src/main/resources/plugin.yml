@@ -1,0 +1,12 @@
+name: ResourceGenerator
+version: '${project.version}'
+main: top.craft_hello.ResourceGenerator.ResourceGenerator
+api-version: '1.13'
+author: WarSkyGod
+website: https://github.com/WarSkyGod/Resource-Generator
+folia-supported: true
+
+commands:
+  rg:
+    description: '打开Gui菜单'
+    usage: '/rg'
